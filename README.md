@@ -12,7 +12,7 @@ KONG_ADMIN_URL: Kong admin url
 
 params
 
-- name: udp-log-extended
+- name: tcp-log-extended
 - config.host: LOG_SERVER_URL
 - config.port: LOG_SERVER_PORT
 - config.req_body: true|false (default: false)
